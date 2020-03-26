@@ -1,0 +1,38 @@
+name: update-data
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "13.x"
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install
+        run: npm ci
+      - name: Collect
+        run: node index.js
+      - name: Add
+        run: |
+          git config --global user.email "dhruvjainpenny@gmail.com"
+          git config --global user.name "Dhruv Jain"
+          git status
+          git add .
+          git commit -m ":minidisc: updated data"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
