@@ -1,4 +1,10 @@
 {
+  "Andaman and Nicobar Islands": {
+    "total_indian": "1",
+    "total_foreign": "0",
+    "cured": "0",
+    "death": "0"
+  },
   "Andhra Pradesh": {
     "total_indian": "11",
     "total_foreign": "0",
@@ -6,19 +12,25 @@
     "death": "0"
   },
   "Bihar": {
-    "total_indian": "3",
+    "total_indian": "6",
     "total_foreign": "0",
     "cured": "0",
     "death": "1"
   },
+  "Chandigarh": {
+    "total_indian": "7",
+    "total_foreign": "0",
+    "cured": "0",
+    "death": "0"
+  },
   "Chhattisgarh": {
-    "total_indian": "3",
+    "total_indian": "6",
     "total_foreign": "0",
     "cured": "0",
     "death": "0"
   },
   "Delhi": {
-    "total_indian": "34",
+    "total_indian": "35",
     "total_foreign": "1",
     "cured": "6",
     "death": "1"
@@ -30,10 +42,10 @@
     "death": "0"
   },
   "Gujarat": {
-    "total_indian": "37",
+    "total_indian": "42",
     "total_foreign": "1",
     "cured": "0",
-    "death": "2"
+    "death": "3"
   },
   "Haryana": {
     "total_indian": "16",
@@ -47,20 +59,32 @@
     "cured": "0",
     "death": "1"
   },
+  "Jammu and Kashmir": {
+    "total_indian": "13",
+    "total_foreign": "0",
+    "cured": "1",
+    "death": "0"
+  },
   "Karnataka": {
-    "total_indian": "41",
+    "total_indian": "55",
     "total_foreign": "0",
     "cured": "3",
-    "death": "1"
+    "death": "2"
   },
   "Kerala": {
     "total_indian": "110",
     "total_foreign": "8",
-    "cured": "4",
+    "cured": "6",
+    "death": "0"
+  },
+  "Ladakh": {
+    "total_indian": "13",
+    "total_foreign": "0",
+    "cured": "0",
     "death": "0"
   },
   "Madhya Pradesh": {
-    "total_indian": "15",
+    "total_indian": "20",
     "total_foreign": "0",
     "cured": "0",
     "death": "1"
@@ -102,7 +126,7 @@
     "death": "1"
   },
   "Rajasthan": {
-    "total_indian": "36",
+    "total_indian": "39",
     "total_foreign": "2",
     "cured": "3",
     "death": "0"
@@ -114,33 +138,9 @@
     "death": "1"
   },
   "Telengana": {
-    "total_indian": "31",
+    "total_indian": "34",
     "total_foreign": "10",
     "cured": "1",
-    "death": "0"
-  },
-  "Chandigarh": {
-    "total_indian": "7",
-    "total_foreign": "0",
-    "cured": "0",
-    "death": "0"
-  },
-  "Jammu and Kashmir": {
-    "total_indian": "11",
-    "total_foreign": "0",
-    "cured": "1",
-    "death": "0"
-  },
-  "Ladakh": {
-    "total_indian": "13",
-    "total_foreign": "0",
-    "cured": "0",
-    "death": "0"
-  },
-  "Uttar Pradesh": {
-    "total_indian": "36",
-    "total_foreign": "1",
-    "cured": "11",
     "death": "0"
   },
   "Uttarakhand": {
@@ -149,8 +149,14 @@
     "cured": "0",
     "death": "0"
   },
+  "Uttar Pradesh": {
+    "total_indian": "40",
+    "total_foreign": "1",
+    "cured": "11",
+    "death": "0"
+  },
   "West Bengal": {
-    "total_indian": "9",
+    "total_indian": "10",
     "total_foreign": "0",
     "cured": "0",
     "death": "1"
