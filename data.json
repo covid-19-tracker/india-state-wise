@@ -6,7 +6,7 @@
     "death": "0"
   },
   "Andhra Pradesh": {
-    "total_indian": "11",
+    "total_indian": "12",
     "total_foreign": "0",
     "cured": "1",
     "death": "0"
@@ -72,15 +72,15 @@
     "death": "2"
   },
   "Kerala": {
-    "total_indian": "110",
+    "total_indian": "129",
     "total_foreign": "8",
-    "cured": "6",
+    "cured": "11",
     "death": "0"
   },
   "Ladakh": {
     "total_indian": "13",
     "total_foreign": "0",
-    "cured": "0",
+    "cured": "3",
     "death": "0"
   },
   "Madhya Pradesh": {
@@ -90,10 +90,10 @@
     "death": "1"
   },
   "Maharashtra": {
-    "total_indian": "121",
+    "total_indian": "127",
     "total_foreign": "3",
-    "cured": "1",
-    "death": "3"
+    "cured": "15",
+    "death": "4"
   },
   "Manipur": {
     "total_indian": "1",
@@ -132,13 +132,13 @@
     "death": "0"
   },
   "Tamil Nadu": {
-    "total_indian": "20",
+    "total_indian": "23",
     "total_foreign": "6",
     "cured": "1",
     "death": "1"
   },
   "Telengana": {
-    "total_indian": "34",
+    "total_indian": "35",
     "total_foreign": "10",
     "cured": "1",
     "death": "0"
